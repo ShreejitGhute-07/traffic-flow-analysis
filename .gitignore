@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore large video files
+*.mp4
+*.avi
+*.mov
+
+# Ignore output CSVs (optional, keep if you want sample)
+output/*.csv
+
+# Ignore OS & IDE files
+__pycache__/
+.DS_Store
+Thumbs.db
